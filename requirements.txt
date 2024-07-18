@@ -1,1 +1,10 @@
+pygame
+requests
+python-dotenv
+speechrecognition
+customtkinter
+pyautogui
+opencv-python
+pytesseract
+Pillow
 
