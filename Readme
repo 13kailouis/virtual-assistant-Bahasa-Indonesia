@@ -1,0 +1,52 @@
+# virtual-assistant-Bahasa-Indonesia
+
+This is a virtual assistant project that uses voice recognition and speech synthesis to interact with users. The assistant can perform various tasks such as moving the mouse, opening and closing applications, and typing text.
+
+## Features
+
+- Voice recognition with Google Speech Recognition
+- Text-to-speech with VoiceRSS
+- Mouse control with PyAutoGUI
+- Application control with system commands
+- Text recognition with PyTesseract and OpenCV
+- Camera interaction with OpenCV
+- GUI with CustomTkinter
+
+## Requirements
+
+- Python 3.x
+- `pygame`
+- `requests`
+- `dotenv`
+- `speech_recognition`
+- `customtkinter`
+- `pyautogui`
+- `opencv-python`
+- `pytesseract`
+- `Pillow`
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/13kailouis/virtual-assistant-Bahasa-Indonesia.git
+    cd virtual-assistant
+    ```
+
+2. Install the required Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Create a `.env` file in the root directory and add your API keys:
+    ```plaintext
+    VOICERSS_API_KEY=your_voicerss_api_key
+    GROQ_API_KEY=your_groq_api_key
+    ```
+
+## Usage
+
+Run the main script:
+```bash
+python kaivis.py
+
